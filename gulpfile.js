@@ -1,3 +1,3 @@
-const gulp = require('gulp');
+var gulp = require('gulp');
 
-gulp.tusk('hello', function() {console.log("Я я закончил задачу")});
+gulp.task('hello', () => console.log("Я я закончил задачу"));
