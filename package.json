@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "console.log(hello)",
-    "create": "touch build",
+    "start": "hello",
+    "create": "touch indexs.js",
     "delete": "rm -rf build"
   },
   "repository": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WebHeroSchool/Final-/issues"
   },
-  "homepage": "https://github.com/WebHeroSchool/Final-#readme"
+  "homepage": "https://github.com/WebHeroSchool/Final-#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
