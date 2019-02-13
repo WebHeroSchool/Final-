@@ -1,0 +1,26 @@
+{
+  "name": "final-",
+  "version": "1.0.0",
+  "description": "Финальная работа.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js",
+    "create": "mkdir build",
+    "delete": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebHeroSchool/Final-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebHeroSchool/Final-/issues"
+  },
+  "homepage": "https://github.com/WebHeroSchool/Final-#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {}
+}
